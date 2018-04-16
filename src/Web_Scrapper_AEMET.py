@@ -112,4 +112,6 @@ print (len (dic))
 
 dataset=pd.DataFrame(dic)
 
+# Guardamos el dataframe en un csv utilizando la coma como separador
 
+dataset.to_csv('Radiación.csv', sep=',', encoding='utf-8')
